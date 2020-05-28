@@ -1,0 +1,15 @@
+@XBlock.json_handler
+def vote(self, data, suffix=''): 
+    """ Update the vote count in response to a user action. """ 
+
+    if data['voteType'] not in ('up', 'down'):
+        log.error('error!')
+        return
+    if data['voteType'] == 'up':
+        self.upvotes += 1
+    else:
+        self.downvotes += 1
+
+    self.voted = True
+    
+    return {'up': self.upvotes, 'down': self.downvotes}
