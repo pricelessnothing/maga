@@ -1,0 +1,5 @@
+<var> = <arithmetic expression>
+<var> ::= user var | global var
+<arithmetic expression> ::= <operand> [<math operator> <operand>]
+<operand> ::= <arithmetic expression> | <var> | number literal
+<math operator> := "*" | "/" | "+" | "-" | "**"

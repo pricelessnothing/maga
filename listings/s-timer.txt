@@ -1,0 +1,4 @@
+<delay> ::= <operand>
+<operand> ::= <arithmetic expression> | <var> | number literal
+<arithmetic expression> ::= <operand> [<math operator> <operand>]
+<var> ::= user var | global var

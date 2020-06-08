@@ -1,0 +1,8 @@
+<logical expressions>
+<logical expressions> ::= <logical expression> [<logical operator> <logical expressions>]
+<logical expression> ::= <operand> <comparison operator> <operand>
+<operand> ::= <arithmetic expression> | <var> | number literal
+<arithmetic expression> ::= <operand> [<math operator> <operand>]
+<var> ::= user var | global var
+<comparison operator> ::= "<", ">", "<=", ">=", "==", "!="
+<logical operator> ::= "&&" | "||"
