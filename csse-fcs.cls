@@ -17,7 +17,7 @@
 
 \RequirePackage{kvoptions}
 \RequirePackage{geometry}
-\RequirePackage{nomencl}
+\RequirePackage[intoc]{nomencl}
 \RequirePackage{indentfirst}
 \RequirePackage{xstring}
 \RequirePackage{float}
@@ -165,7 +165,7 @@
   \CYRR\CYRE\CYRF\CYRE\CYRR\CYRA\CYRT
 }
 \newcommand\csseabstractnameen{%
-  THE ABSTRACT%
+  ABSTRACT%
 }
 \newcommand\stats@report{%
   \CYRN\cyra%
@@ -179,16 +179,16 @@
   pages%
 }
 \newcommand\stats@fig{%
-  \cyrr\cyri\cyrs\cyru\cyrn\cyrk\cyro\cyrv%
+  \cyrr\cyri\cyrs\cyru\cyrn\cyrk\cyra%
 }
 \newcommand\stats@fig@en{%
   pictures%
 }
 \newcommand\stats@table{%
-  \cyrt\cyra\cyrb\cyrl\cyri\cyrc\cyr\char251%
+  \cyrt\cyra\cyrb\cyrl\cyri\cyrc\cyra%
 }
 \newcommand\stats@table@en{%
-  tables%
+  table%
 }
 \newcommand\stats@cite{%
   \cyri\cyrs\cyrt.%
@@ -491,7 +491,7 @@
     skip=-10pt}
 % \floatname{figure}{\CYRR\cyri\cyrs\cyru\cyrn\cyro\cyrk}
 \floatname{figure}{\CYRR\cyri\cyrs}
-\floatname{table}{\CYRT\cyra\cyrb\cyrl\cyri\cyrc\cyra}
+% \floatname{table}{\CYRT\cyra\cyrb\cyrl\cyri\cyrc\cyra}
 
 % Workaround for disser-1.2.0 `headcenter` pagestyle options
 % Custom page numbering style

@@ -35,9 +35,9 @@
 \fi
 
 \ifundeflength\firstskip{4ex}
-\ifundeflength\secondskip{8ex}
+\ifundeflength\secondskip{0ex}
 \ifundeflength\thirdskip{2ex}
-\ifundeflength\fourthskip{0ex}
+\ifundeflength\fourthskip{1cm}
 \ifundeflength\fifthskip{5ex}
 \ifundeflength\sixthskip{1ex}
 
@@ -54,9 +54,9 @@
   \instfont\@department\par
 \end{center}
 
-\vskip\firstskip
+\vskip0ex
 \@approved
-\vskip\secondskip
+\vskip0ex
 \begin{center}
   {\titlefont\@title}
   \vskip\thirdskip
@@ -72,7 +72,7 @@
   \ \@masterprognum\ <<\@masterprog>>%
 \end{center}
 %
-\vskip5ex
+\vskip0ex
 \begin{tabbing}
   \studentlabel\=\makebox[\fieldhshift][l]{\hrulefill\ \@author}\\[\sixthskip]
   \ifx\@sa\empty\else\diplomafield{sa}\\[\sixthskip]\fi
