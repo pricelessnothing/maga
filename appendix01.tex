@@ -1,6 +1,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nchapter{Формальный синтаксис}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\thelstlisting}{П1.\arabic{lstlisting}}
+\setcounter{lstlisting}{0}
 
 \begin{flushright}
 \vskip-12ex
@@ -9,15 +13,18 @@
 
 \lstinputlisting[
 caption={Формальный синтаксис блока instructions},
+label={listings:s-instr}
 ]
 {listings/s-instr.txt}
 
 \lstinputlisting[
 caption={Формальный синтаксис блока condition},
+label={listings:s-cond}
 ]
 {listings/s-cond.txt}
 
 \lstinputlisting[
 caption={Формальный синтаксис блока timer},
+label={listings:s-timer}
 ]
 {listings/s-timer.txt}

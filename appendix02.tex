@@ -2,6 +2,9 @@
 \nchapter{Фрагменты исходных текстов}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\renewcommand{\thelstlisting}{П2.\arabic{lstlisting}}
+\setcounter{lstlisting}{0}
+
 \begin{flushright}
 \vskip-12ex
 Приложение П2
@@ -9,10 +12,12 @@
 
 \lstinputlisting[
 caption={Исходный текст компилятора},
+style=javascript
 ]
 {listings/translator.js}
 
 \lstinputlisting[
 caption={Исходный текст интерпретатора},
+style=javascript,
 ]
 {listings/executor.js}
