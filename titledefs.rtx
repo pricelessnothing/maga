@@ -47,19 +47,18 @@
 \def\sasndname{\saname}
 \def\salabel{\saname}
 \def\sasndlabel{\sasndname}
-\def\sconname{\cyr\CYRN\cyra\cyru\cyrch\cyrn\cyrery\cyrishrt\ %
-\cyrk\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt}
-\def\sconsndname{\sconname}
-\def\sconlabel{\sconname}
-\def\sconsndlabel{\sconsndname}
+
+\def\sconname{\cyr\CYRK\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt}
+\def\sconlabel{\sconname\ \cyrp\cyro\ \@sconspec}
+
 \def\revname{\cyr\CYRR\cyre\cyrc\cyre\cyrn\cyrz\cyre\cyrn\cyrt}
 \def\revsndname{\revname}
 \def\revlabel{\revname}
 \def\revsndlabel{\revsndname}
+
 \def\conname{\cyr\CYRK\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt}
-\def\consndname{\conname}
 \def\conlabel{\conname\ \cyrp\cyro\ \@conspec}
-\def\consndlabel{\consndname\ \cyrp\cyro\ \@consndspec}
+
 \def\asmanuscript{\cyr\CYRN\cyra\ \cyrp\cyrr\cyra\cyrv\cyra\cyrh\ %
 \cyrr\cyru\cyrk\cyro\cyrp\cyri\cyrs\cyri}
 \def\libcatname{\cyr\CYRU\CYRD\CYRK}
@@ -99,6 +98,7 @@
 
 \def\scon#1{\gdef\@scon{#1}}\scon{}
 \def\sconsnd#1{\gdef\@sconsnd{#1}}\sconsnd{}
+\def\sconspec#1{\gdef\@sconspec{#1}}\sconspec{}
 \def\sconstatus#1{\gdef\@sconstatus{#1}}\sconstatus{}
 \def\sconsndstatus#1{\gdef\@sconsndstatus{#1}}\sconsndstatus{}
 
