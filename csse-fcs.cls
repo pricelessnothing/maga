@@ -197,7 +197,7 @@
   references%
 }
 \newcommand\stats@appendix{%
-  \cyrp\cyrr\cyri\cyrl\cyro\cyrzh\cyre\cyrn\cyri\cyrishrt%
+  \cyrp\cyrr\cyri\cyrl\cyro\cyrzh\cyre\cyrn\cyri\cyrya%
 }
 \newcommand\stats@appendix@en{%
   appendicies%
